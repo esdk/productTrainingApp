@@ -1,0 +1,17 @@
+:docinfo:
+= productTrainingApp
+Documentation
+:nofooter:
+
+This document describes the productTrainingApp app.
+
+include::subpage.adoc[]
+
+include::additionalpage.adoc[]
+
+== About
+
+productTrainingApp +
+(C) Your Company
+
+https://your-website.com/
