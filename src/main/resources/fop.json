@@ -1,13 +1,46 @@
 [
   {
-    "databaseName": "(Customer)",
-    "groupName": "(Customer)",
-    "editorMode": "*",
-    "event": "feldpruef",
+    "databaseName": "ProductTraining",
+    "groupName": "ProductTraining",
+    "editorMode": "neu",
+    "event": "feldaus",
     "key": "*",
-    "field": "plz",
+    "field": "yprtrnproduct",
     "headOrTable": "K",
     "isContinue": "[C]",
-    "handler": "java:de.abas.esdk.app.prtrn.ZipCodeEventHandler@prtrn"
+    "handler": "java:de.abas.esdk.app.prtrn.ProductTrainingEventHandler@prtrn"
+  },
+  {
+    "databaseName": "ProductTraining",
+    "groupName": "ProductTraining",
+    "editorMode": "ändern",
+    "event": "feldaus",
+    "key": "*",
+    "field": "yprtrnproduct",
+    "headOrTable": "K",
+    "isContinue": "[C]",
+    "handler": "java:de.abas.esdk.app.prtrn.ProductTrainingEventHandler@prtrn"
+  },
+  {
+    "databaseName": "ProductTraining",
+    "groupName": "ProductTraining",
+    "editorMode": "neu",
+    "event": "feldaus",
+    "key": "*",
+    "field": "yprtrnparticipant",
+    "headOrTable": "T",
+    "isContinue": "[C]",
+    "handler": "java:de.abas.esdk.app.prtrn.ProductTrainingEventHandler@prtrn"
+  },
+  {
+    "databaseName": "ProductTraining",
+    "groupName": "ProductTraining",
+    "editorMode": "ändern",
+    "event": "feldaus",
+    "key": "*",
+    "field": "yprtrnparticipant",
+    "headOrTable": "T",
+    "isContinue": "[C]",
+    "handler": "java:de.abas.esdk.app.prtrn.ProductTrainingEventHandler@prtrn"
   }
 ]
