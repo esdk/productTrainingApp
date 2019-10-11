@@ -1,0 +1,82 @@
+database master ProductTraining {
+	number 15
+	classname ProductTraining
+	structure ProductTraining {
+		head {
+			field "PS2:1" product {
+				label ""
+				heading ""
+				description Produkt
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD19 from {
+				label ""
+				heading ""
+				description Startdatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD19 to {
+				label ""
+				heading ""
+				description Enddatum
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+			field "VPKS7" participant {
+				label ""
+				heading ""
+				description Teilnehmer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T100 address {
+				label ""
+				heading ""
+				description Adresse
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL20 zipcode {
+				label ""
+				heading ""
+				description Postleitzahl
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 town {
+				label ""
+				heading ""
+				description Stadt
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "PS97:1" country {
+				label ""
+				heading ""
+				description Land
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 confirmed {
+				label ""
+				heading ""
+				description "Teilnahme bestätigt?"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+	}
+}
