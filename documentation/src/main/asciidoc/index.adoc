@@ -3,15 +3,15 @@
 Documentation
 :nofooter:
 
-This document describes the productTrainingApp app.
+This document describes the Product Training App.
 
-include::subpage.adoc[]
+include::general.adoc[]
 
-include::additionalpage.adoc[]
+include::example.adoc[]
 
 == About
 
 productTrainingApp +
-(C) Your Company
+(C) abas Software GmbH
 
-https://your-website.com/
+https://abas-erp.com/

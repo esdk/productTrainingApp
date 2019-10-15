@@ -1,0 +1,3 @@
+== General
+
+The Product Training App adds an additional database to abas ERP to store training session for products.

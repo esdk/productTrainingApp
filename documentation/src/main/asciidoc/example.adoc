@@ -1,0 +1,5 @@
+== Example
+
+The Product Training screen looks as follows:
+
+image::screen.png[]
