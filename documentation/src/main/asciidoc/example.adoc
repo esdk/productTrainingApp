@@ -3,3 +3,5 @@
 The Product Training screen looks as follows:
 
 image::screen.png[]
+
+For general info please refer to chapter <<General>>.

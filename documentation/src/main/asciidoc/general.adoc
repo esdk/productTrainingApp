@@ -1,3 +1,12 @@
 == General
 
 The Product Training App adds an additional database to abas ERP to store training session for products.
+
+[source,java]
+.example code
+----
+private String greeting = "Hello, World!";
+System.out.println(greeting);
+greeting = "Hello, ESDK World!"
+System.out.println(greeting);
+----
